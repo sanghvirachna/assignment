@@ -55,9 +55,13 @@ This application is a simple invoice management system built with Node.js and Po
     You can start the application with the following command:
 
     ```bash
-    node app.js
+    node index.js
     ```
-
+    OR
+   
+     ```bash
+   npm run dev
+    ```
     The application will start and listen on port 3000.
 
 ## 🛠️ Usage
