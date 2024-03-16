@@ -75,3 +75,11 @@ You can use a tool like curl, Postman, or Thunder Client to send HTTP requests t
 - `GET /customers/:id/total_sales`: Calculate total sales for a customer.
 
 Please replace `:id` with the actual ID of the invoice or customer.
+
+## 🧪 Testing
+
+The application includes a suite of tests built with Jest and Supertest. These tests cover the main functionalities of the application and ensure that everything is working as expected.
+
+To run the tests, first, make sure you have Jest and Supertest installed. If not, you can add them with `npm install --save-dev jest supertest`. Then, you can run the tests with `npm test`.
+
+Remember to replace `:id` with the actual ID of the invoice or customer when making requests. Enjoy coding! 😊
