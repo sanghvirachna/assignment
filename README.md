@@ -1,19 +1,19 @@
-# Invoice Management
+# 🧾 Invoice Management
 
 This application is a simple invoice management system built with Node.js and PostgreSQL. It provides features to create a new invoice, retrieve an invoice including customer and items, update invoice status from pending to paid and vice versa, list invoices for a customer including total amount and status for each invoice, and calculate total sales for a customer.
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Node.js
 - PostgreSQL
 
-## Setup
+## 🚀 Setup
 
-1. **Create PostgreSQL Database**
+1. **Create PostgreSQL Database** 🗄️
 
     First, you need to create a PostgreSQL database. You can do this through the PostgreSQL command line or a GUI like pgAdmin.
 
-2. **Create Tables**
+2. **Create Tables** 📚
 
     You will need to create three tables: `customers`, `invoices`, and `invoice_items`. Here are some basic commands to create these tables:
 
@@ -42,7 +42,7 @@ This application is a simple invoice management system built with Node.js and Po
 
     These commands create the tables with the necessary columns. Adjust the data types and constraints according to your requirements.
 
-3. **Install Dependencies**
+3. **Install Dependencies** 📥
 
     Navigate to the project directory and run the following command to install the necessary dependencies:
 
@@ -50,7 +50,7 @@ This application is a simple invoice management system built with Node.js and Po
     npm install
     ```
 
-4. **Run the Application**
+4. **Run the Application** 🖥️
 
     You can start the application with the following command:
 
@@ -60,7 +60,7 @@ This application is a simple invoice management system built with Node.js and Po
 
     The application will start and listen on port 3000.
 
-## Usage
+## 🛠️ Usage
 
 You can use a tool like curl, Postman, or Thunder Client to send HTTP requests to the application. Here are the available endpoints:
 
